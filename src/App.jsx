@@ -1,7 +1,12 @@
 import "./App.css";
+import RemoveBackground from "./components/BGremover";
 
 function App() {
-  return <>klklm</>;
+  return (
+    <>
+      <RemoveBackground />
+    </>
+  );
 }
 
 export default App;
